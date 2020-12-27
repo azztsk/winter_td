@@ -1,0 +1,376 @@
+"test_config"
+{
+	"PrepTimeBetweenRounds"			"5"
+	"ItemExpireTime"				"10"
+	"RestoreHPAfterRound"			"0"
+	"RestoreMPAfterRound"			"0"
+	"RewardForTowersStanding"		"1"
+	"TowerRewardAmount"				"18"
+	"TowerScalingRewardPerRound"	"2"
+
+	"Spawns"
+	{
+		"1"
+		{
+			"SpawnerName"				"spawner_top_left"
+			"AirWaypoint"				"path_end"
+			"GroundWaypoint"			"path_end"
+		}
+
+		"2"
+		{
+			"SpawnerName"				"spawner_top_right"
+			"AirWaypoint"				"path_end"
+			"GroundWaypoint"			"path_end"
+		}
+
+		"3"
+		{
+			"SpawnerName"				"spawner_middle_left"
+			"AirWaypoint"				"path_end"
+			"GroundWaypoint"			"path_end"
+		}
+		"4"
+		{
+			"SpawnerName"				"spawner_middle_right"
+			"AirWaypoint"				"path_end"
+			"GroundWaypoint"			"path_end"
+		}
+		"5"
+		{
+			"SpawnerName"				"spawner_middle_mid_1"
+			"AirWaypoint"				"path_end"
+			"GroundWaypoint"			"path_end"
+		}
+		"6"
+		{
+			"SpawnerName"				"spawner_middle_mid_2"
+			"AirWaypoint"				"path_end"
+			"GroundWaypoint"			"path_end"
+		}
+		"7"
+		{
+			"SpawnerName"				"spawner_middle"
+			"AirWaypoint"				"path_end"
+			"GroundWaypoint"			"path_end"
+		}
+		"8"
+		{
+			"SpawnerName"				"spawner_bottom_left"
+			"AirWaypoint"				"path_end"
+			"GroundWaypoint"			"path_end"
+		}
+		"9"
+		{
+			"SpawnerName"				"spawner_bottom_right"
+			"AirWaypoint"				"path_end"
+			"GroundWaypoint"			"path_end"
+		}
+	}
+
+	"Waves"
+	{
+		"Wave1" // Scouts
+		{
+			"Ground unit"
+			{
+				"NPCName"					"npc_dota_ground_unit"
+				"TotalUnitsToSpawn"			"90"
+				"UnitsPerSpawn"				"1"
+				"SpawnInterval"				"1"
+			}
+		}
+		"Wave2" // Scouts
+		{
+			"Ground unit"
+			{
+				"NPCName"					"npc_dota_ground_unit"
+				"TotalUnitsToSpawn"			"90"
+				"UnitsPerSpawn"				"1"
+				"SpawnInterval"				"1"
+			}
+		}
+		"Wave3" // Scouts
+		{
+			"Ground unit"
+			{
+				"NPCName"					"npc_dota_ground_unit"
+				"TotalUnitsToSpawn"			"90"
+				"UnitsPerSpawn"				"1"
+				"SpawnInterval"				"1"
+			}
+		}
+		"Wave4" // Scouts
+		{
+			"Ground unit"
+			{
+				"NPCName"					"npc_dota_ground_unit"
+				"TotalUnitsToSpawn"			"90"
+				"UnitsPerSpawn"				"1"
+				"SpawnInterval"				"1"
+			}
+		}
+		"Wave5" // Scouts
+		{
+			"Ground unit"
+			{
+				"NPCName"					"npc_dota_ground_unit"
+				"TotalUnitsToSpawn"			"90"
+				"UnitsPerSpawn"				"1"
+				"SpawnInterval"				"1"
+			}
+		}
+		"Wave6" // Scouts
+		{
+			"Ground unit"
+			{
+				"NPCName"					"npc_dota_ground_unit"
+				"TotalUnitsToSpawn"			"90"
+				"UnitsPerSpawn"				"1"
+				"SpawnInterval"				"1"
+			}
+		}
+		"Wave7" // Scouts
+		{
+			"Ground unit"
+			{
+				"NPCName"					"npc_dota_ground_unit"
+				"TotalUnitsToSpawn"			"90"
+				"UnitsPerSpawn"				"1"
+				"SpawnInterval"				"1"
+			}
+		}
+		"Wave8" // Scouts
+		{
+			"Ground unit"
+			{
+				"NPCName"					"npc_dota_ground_unit"
+				"TotalUnitsToSpawn"			"90"
+				"UnitsPerSpawn"				"1"
+				"SpawnInterval"				"1"
+			}
+		}
+		"Wave9" // Scouts
+		{
+			"Ground unit"
+			{
+				"NPCName"					"npc_dota_ground_unit"
+				"TotalUnitsToSpawn"			"90"
+				"UnitsPerSpawn"				"1"
+				"SpawnInterval"				"1"
+			}
+		}
+		"Wave10" // Scouts
+		{
+			"Ground unit"
+			{
+				"NPCName"					"npc_dota_boss_unit"
+				"TotalUnitsToSpawn"			"18"
+				"UnitsPerSpawn"				"1"
+				"SpawnInterval"				"1"
+			}
+		}
+		"Wave11" // Scouts
+		{
+			"Ground unit"
+			{
+				"NPCName"					"npc_dota_ground_unit"
+				"TotalUnitsToSpawn"			"90"
+				"UnitsPerSpawn"				"1"
+				"SpawnInterval"				"1"
+			}
+		}
+		"Wave12" // Scouts
+		{
+			"Ground unit"
+			{
+				"NPCName"					"npc_dota_ground_unit"
+				"TotalUnitsToSpawn"			"90"
+				"UnitsPerSpawn"				"1"
+				"SpawnInterval"				"1"
+			}
+		}
+		"Wave13" // Scouts
+		{
+			"Ground unit"
+			{
+				"NPCName"					"npc_dota_ground_unit"
+				"TotalUnitsToSpawn"			"90"
+				"UnitsPerSpawn"				"1"
+				"SpawnInterval"				"1"
+			}
+		}
+		"Wave14" // Scouts
+		{
+			"Ground unit"
+			{
+				"NPCName"					"npc_dota_ground_unit"
+				"TotalUnitsToSpawn"			"90"
+				"UnitsPerSpawn"				"1"
+				"SpawnInterval"				"1"
+			}
+		}
+		"Wave15" // Scouts
+		{
+			"Ground unit"
+			{
+				"NPCName"					"npc_dota_ground_unit"
+				"TotalUnitsToSpawn"			"90"
+				"UnitsPerSpawn"				"1"
+				"SpawnInterval"				"1"
+			}
+		}
+		"Wave16" // Scouts
+		{
+			"Ground unit"
+			{
+				"NPCName"					"npc_dota_ground_unit"
+				"TotalUnitsToSpawn"			"90"
+				"UnitsPerSpawn"				"1"
+				"SpawnInterval"				"1"
+			}
+		}
+		"Wave17" // Scouts
+		{
+			"Ground unit"
+			{
+				"NPCName"					"npc_dota_ground_unit"
+				"TotalUnitsToSpawn"			"90"
+				"UnitsPerSpawn"				"1"
+				"SpawnInterval"				"1"
+			}
+		}
+		"Wave18" // Scouts
+		{
+			"Ground unit"
+			{
+				"NPCName"					"npc_dota_ground_unit"
+				"TotalUnitsToSpawn"			"90"
+				"UnitsPerSpawn"				"1"
+				"SpawnInterval"				"1"
+			}
+		}
+		"Wave19" // Scouts
+		{
+			"Ground unit"
+			{
+				"NPCName"					"npc_dota_ground_unit"
+				"TotalUnitsToSpawn"			"90"
+				"UnitsPerSpawn"				"1"
+				"SpawnInterval"				"1"
+			}
+		}
+		"Wave20" // Scouts
+		{
+			"Ground unit"
+			{
+				"NPCName"					"npc_dota_boss_unit"
+				"TotalUnitsToSpawn"			"18"
+				"UnitsPerSpawn"				"1"
+				"SpawnInterval"				"1"
+			}
+		}
+		"Wave21" // Scouts
+		{
+			"Ground unit"
+			{
+				"NPCName"					"npc_dota_ground_unit"
+				"TotalUnitsToSpawn"			"90"
+				"UnitsPerSpawn"				"1"
+				"SpawnInterval"				"1"
+			}
+		}
+		"Wave22" // Scouts
+		{
+			"Ground unit"
+			{
+				"NPCName"					"npc_dota_ground_unit"
+				"TotalUnitsToSpawn"			"90"
+				"UnitsPerSpawn"				"1"
+				"SpawnInterval"				"1"
+			}
+		}
+		"Wave23" // Scouts
+		{
+			"Ground unit"
+			{
+				"NPCName"					"npc_dota_ground_unit"
+				"TotalUnitsToSpawn"			"90"
+				"UnitsPerSpawn"				"1"
+				"SpawnInterval"				"1"
+			}
+		}
+		"Wave24" // Scouts
+		{
+			"Ground unit"
+			{
+				"NPCName"					"npc_dota_ground_unit"
+				"TotalUnitsToSpawn"			"90"
+				"UnitsPerSpawn"				"1"
+				"SpawnInterval"				"1"
+			}
+		}
+		"Wave25" // Scouts
+		{
+			"Ground unit"
+			{
+				"NPCName"					"npc_dota_ground_unit"
+				"TotalUnitsToSpawn"			"90"
+				"UnitsPerSpawn"				"1"
+				"SpawnInterval"				"1"
+			}
+		}
+		"Wave26" // Scouts
+		{
+			"Ground unit"
+			{
+				"NPCName"					"npc_dota_ground_unit"
+				"TotalUnitsToSpawn"			"90"
+				"UnitsPerSpawn"				"1"
+				"SpawnInterval"				"1"
+			}
+		}
+		"Wave27" // Scouts
+		{
+			"Ground unit"
+			{
+				"NPCName"					"npc_dota_ground_unit"
+				"TotalUnitsToSpawn"			"90"
+				"UnitsPerSpawn"				"1"
+				"SpawnInterval"				"1"
+			}
+		}
+		"Wave28" // Scouts
+		{
+			"Ground unit"
+			{
+				"NPCName"					"npc_dota_ground_unit"
+				"TotalUnitsToSpawn"			"90"
+				"UnitsPerSpawn"				"1"
+				"SpawnInterval"				"1"
+			}
+		}
+		"Wave29" // Scouts
+		{
+			"Ground unit"
+			{
+				"NPCName"					"npc_dota_ground_unit"
+				"TotalUnitsToSpawn"			"90"
+				"UnitsPerSpawn"				"1"
+				"SpawnInterval"				"1"
+			}
+		}
+		"Wave30" // Duke Wintermaul
+		{
+
+			"Duke Wintermaul"
+			{
+				"NPCName"					"npc_dota_boss_unit"
+				"TotalUnitsToSpawn"			"18"
+				"UnitsPerSpawn"				"1"
+				"SpawnInterval"				"1"
+			}
+		}
+	}
+
+}

@@ -1,0 +1,40 @@
+<root>
+	<styles>
+        <include src="file://panorama/styles/custom_game/choose_diff.css" />
+	</styles>
+
+	<scripts>
+        <include src="file://panorama/scripts/custom_game/choose_diff.js" />
+	</scripts>
+
+	<Panel class="root">
+		<Panel id="diffPan">
+			<Button class="btn" onmouseover="AddStyle( hover )" onmouseout="RemoveStyle( hover )" onactivate="DiffCheck('easy')" >
+				<Label id="label" text="EASY" />
+				<Label id="subLabel" text="Player lives: 40, Enemy hp: 75%" />
+			</Button>
+			<Button class="btn" onmouseover="AddStyle( hover )" onmouseout="RemoveStyle( hover )" onactivate="DiffCheck('medium')" >
+				<Label id="label" text="MEDIUM" />
+				<Label id="subLabel" text="Player lives: 40, Enemy hp: 100%" />
+			</Button>
+			<Button class="btn" onmouseover="AddStyle( hover )" onmouseout="RemoveStyle( hover )" onactivate="DiffCheck('hard')" >
+				<Label id="label" text="HARD" />
+				<Label id="subLabel" text="Player lives: 20, Enemy hp: 125%" />
+			</Button>
+			<Button class="btn" onmouseover="AddStyle( hover )" onmouseout="RemoveStyle( hover )" onactivate="DiffCheck('insane')" >
+				<Label id="label" text="NIGHTMARE" />
+				<Label id="subLabel" text="Player lives: 10, Enemy hp: 150%" />
+			</Button>
+<!--			
+			<Button class="btn" onmouseover="AddStyle( hover )" onmouseout="RemoveStyle( hover )" onactivate="DiffCheck('perfection')" >
+				<Label id="label" text="PERFECTIONIST" />
+				<Label id="subLabel" text="Player lives: 1, Enemy hp: 150%" />
+			</Button>
+			<Button class="btn" onmouseover="AddStyle( hover )" onmouseout="RemoveStyle( hover )" onactivate="DiffCheck('unlimited')" >
+				<Label id="label" text="UNLIMITED" />
+				<Label id="subLabel" text="It never ends!" />
+			</Button>
+-->			
+		</Panel>
+	</Panel>
+</root>

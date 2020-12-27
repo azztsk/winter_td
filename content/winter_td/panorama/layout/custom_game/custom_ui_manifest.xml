@@ -1,0 +1,41 @@
+<root>	
+	<script>
+		GameUI.SetDefaultUIEnabled( DotaDefaultUIElement_t.DOTA_DEFAULT_UI_FLYOUT_SCOREBOARD, false );
+		GameUI.SetDefaultUIEnabled( DotaDefaultUIElement_t.DOTA_DEFAULT_UI_INVENTORY_PROTECT, false );
+		GameUI.SetDefaultUIEnabled( DotaDefaultUIElement_t.DOTA_DEFAULT_UI_SHOP_SUGGESTEDITEMS, false );
+//		GameUI.SetDefaultUIEnabled( DotaDefaultUIElement_t.DOTA_DEFAULT_UI_INVENTORY_QUICKBUY, false ); 
+//		GameUI.SetDefaultUIEnabled( DotaDefaultUIElement_t.DOTA_DEFAULT_UI_INVENTORY_COURIER, false );
+		GameUI.SetDefaultUIEnabled( DotaDefaultUIElement_t.DOTA_DEFAULT_UI_HERO_SELECTION_GAME_NAME, true );   
+		GameUI.SetDefaultUIEnabled( DotaDefaultUIElement_t.DOTA_DEFAULT_UI_TOP_MENU_BUTTONS, false );
+		GameUI.SetDefaultUIEnabled( DotaDefaultUIElement_t.DOTA_DEFAULT_UI_TOP_TIMEOFDAY, false );
+		GameUI.SetDefaultUIEnabled( DotaDefaultUIElement_t.DOTA_DEFAULT_UI_TOP_HEROES, false );
+		GameUI.SetDefaultUIEnabled( DotaDefaultUIElement_t.DOTA_DEFAULT_UI_ACTION_MINIMAP, true );     
+		GameUI.SetDefaultUIEnabled( DotaDefaultUIElement_t.DOTA_DEFAULT_UI_TOP_BAR_DIRE_TEAM, false );
+		GameUI.SetDefaultUIEnabled( DotaDefaultUIElement_t.DOTA_DEFAULT_UI_TOP_BAR_SCORE, false );
+
+		GameUI.CustomUIConfig().player_colors = {}
+        GameUI.CustomUIConfig().player_colors[1] = "#3dd296"; // { 61, 210, 150 }    --              Teal
+        GameUI.CustomUIConfig().player_colors[3] = "#F3C909"; // { 243, 201, 9 }     --              Yellow
+        GameUI.CustomUIConfig().player_colors[5] = "#c54da8"; // { 197, 77, 168 }    --              Pink
+        GameUI.CustomUIConfig().player_colors[4] = "#FF6C00"; // { 255, 108, 0 }     --              Orange
+        GameUI.CustomUIConfig().player_colors[0] = "#3455FF"; // { 52, 85, 255 }     --              Blue
+        GameUI.CustomUIConfig().player_colors[8] = "#65d413"; // { 101, 212, 19 }    --              Green
+        GameUI.CustomUIConfig().player_colors[9] = "#815336"; // { 129, 83, 54 }     --              Brown
+        GameUI.CustomUIConfig().player_colors[7] = "#1bc0d8"; // { 27, 192, 216 }    --              Cyan
+        GameUI.CustomUIConfig().player_colors[6] = "#c7e40d"; // { 199, 228, 13 }    --              Olive
+        GameUI.CustomUIConfig().player_colors[2] = "#8c2af4"; // { 140, 42, 244 }    --              Purple
+
+
+	</script>
+	<Panel>
+
+		<CustomUIElement type="HudTopBar" 			layoutfile="file://{resources}/layout/custom_game/multiteam_top_scoreboard.xml" />
+
+		<CustomUIElement type="Hud" 				layoutfile="file://{resources}/layout/custom_game/scripts.xml" />
+		<CustomUIElement type="Hud" 				layoutfile="file://{resources}/layout/custom_game/barebones_notifications.xml" />
+		<CustomUIElement type="Hud"  				layoutfile="file://{resources}/layout/custom_game/building_helper.xml" />
+		<CustomUIElement type="Hud"  				layoutfile="file://{resources}/layout/custom_game/selection.xml" />
+		<CustomUIElement type="Hud" 			 	layoutfile="file://{resources}/layout/custom_game/left_box.xml" />
+
+	</Panel>
+</root>

@@ -1,0 +1,10 @@
+<root>
+    <scripts>
+        <include src="file://panorama/scripts/barebones/clicks.js" />
+        <include src="file://panorama/scripts/barebones/building_helper.js" />
+    </scripts>
+    <script>
+        $.Msg( "Compiled Building Helper!" );
+    </script>
+    <Panel></Panel>
+</root>

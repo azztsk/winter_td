@@ -1,0 +1,8 @@
+td_version_1
+{
+	material materials/overviews/td_version_1.vmat
+	pos_x -2816
+	pos_y 2816
+	scale 5.500
+}
+

@@ -1,0 +1,43 @@
+
+#TitlePanel
+{
+  horizontal-align: left;
+  vertical-align: bottom;
+  margin-bottom: 150px;
+  margin-left: 100px;
+  flow-children: right;
+}
+
+#AddonTitle
+{
+  margin-bottom: -40px;
+  margin-left: 125px;
+  vertical-align: center;
+  text-transform: uppercase;
+  font-size: 55px;
+  color: #cccccc;
+  text-shadow: 2px 2px 2px #000000;
+}
+
+.AddonLoadingRoot
+{
+	width: 100%;
+	height: 100%;
+	background-color: black;
+	overflow: clip;
+}
+
+#image_bg 
+{
+  margin-left: 0%;
+
+}
+
+
+
+.ImageBg
+{
+  min-width: 100%;
+  min-height: 100%;
+  visibility: visible;
+}

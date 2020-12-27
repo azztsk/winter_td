@@ -1,0 +1,210 @@
+.Root
+{
+	width: 400px;
+	height:100%;
+
+	horizontal-align: left;
+	vertical-align: top;
+	flow-children: down;
+
+}
+.Waves
+{
+	width: 300px;
+	height: 100px;
+
+	horizontal-align: left;
+	vertical-align: bottom;
+	margin-bottom: 245px;
+	background-color: gradient( linear, 0% 0%, 100% 0%, from( rgba(0, 0, 0, 1) ), color-stop( 0.34, rgba(0, 0, 0, 0.9) ), color-stop( 0.9, rgba(0, 0, 0, 0) ) ,to( rgba(0, 0, 0, 0) ));
+	flow-children: down;
+	
+
+}
+.Lives
+{
+	width: 244px;
+
+
+	horizontal-align: left;
+	vertical-align: top;
+
+
+}
+.Timer
+{
+	width: 244px;
+
+
+	horizontal-align: left;
+	vertical-align: top;
+
+
+}
+.Next
+{
+	width: 244px;
+
+
+	horizontal-align: left;
+	vertical-align: top;
+
+
+}
+.CurrentTop
+{
+	width: 244px;
+
+
+	horizontal-align: left;
+	vertical-align: bottom;
+
+}
+.CurrentBot
+{
+	width: 244px;
+
+
+	horizontal-align: left;
+	vertical-align: bottom;
+
+}
+.LifeLeft
+{
+
+	horizontal-align: left;
+	vertical-align: top;
+
+}
+.TimerLeft
+{
+
+	horizontal-align: left;
+	vertical-align: top;
+
+}
+.NextLeft
+{
+
+	horizontal-align: left;
+	vertical-align: top;
+
+}
+.CurrentTopLeft
+{
+
+	horizontal-align: left;
+	vertical-align: bottom;
+}
+.CurrentBotLeft
+{
+
+	horizontal-align: left;
+	vertical-align: bottom;
+}
+.LifeRight
+{
+
+	horizontal-align: right;
+	vertical-align: top;
+
+}
+.TimerRight
+{
+
+	horizontal-align: right;
+	vertical-align: top;
+
+}
+.NextRight
+{
+
+	horizontal-align: right;
+	vertical-align: top;
+
+}
+.CurrentTopRight
+{
+
+	horizontal-align: right;
+	vertical-align: bottom;
+}
+.CurrentBotRight
+{
+
+	horizontal-align: right;
+	vertical-align: bottom;
+}
+#LifeText
+{
+	font-size: 28;
+	color: white;
+	text-align: left;
+	text-shadow: 1px 1px 5px 4.0 black;
+
+}
+#TimerText
+{
+	font-size: 14;
+	color: white;
+	text-align: left;
+	text-shadow: 1px 1px 5px 4.0 black;
+}
+#NextWave
+{
+	font-size: 12;
+	color: white;
+	text-align: left;
+	text-shadow: 1px 1px 5px 4.0 black;
+}
+#CurrentWaveTop
+{
+	font-size: 14;
+	color: white;
+	text-align: left;
+	text-shadow: 1px 1px 5px 4.0 black;
+}
+#CurrentWaveBot
+{
+	font-size: 14;
+	color: white;
+	text-align: left;
+	text-shadow: 1px 1px 5px 4.0 black;
+}
+#LifeNumber
+{
+	font-size: 28;
+	color: white;
+	text-align: right;
+	text-shadow: 1px 1px 5px 4.0 black;
+}
+#TimerTime
+{
+	font-size: 14;
+	color: white;
+	text-align: right;
+	text-shadow: 1px 1px 5px 4.0 black;
+
+}
+#NextWaveText
+{
+	font-size: 12;
+	color: white;
+	text-align: right;
+	text-shadow: 1px 1px 5px 4.0 black;
+
+}
+#CurrentWaveText
+{
+	font-size: 14;
+	color: white;
+	text-align: right;
+	text-shadow: 1px 1px 5px 4.0 black;
+}
+#CurrentWaveNumber
+{
+	font-size: 14;
+	color: white;
+	text-align: right;
+	text-shadow: 1px 1px 5px 4.0 black;
+}

@@ -1,0 +1,150 @@
+// Dota Heroes File
+// NOTE: This is not for creating new heroes, this is for taking a currently existing hero as a template and overriding
+// the specified key-value combinations.  Use override_hero <hero_to_override> for this.
+"DOTAHeroes"
+{
+	//=================================================================================================================
+	// HERO: Crystal Maiden
+	//=================================================================================================================
+	
+	"npc_dota_hero_mars"
+	{
+		"override_hero"				"npc_dota_hero_mars"			// Hero to override
+		"AbilityLayout"				"6"
+		"Ability1"					"build_tower_warrior_1"					// Ability 1
+		"Ability2"					"build_tower_warrior_2"					// Ability 2
+		"Ability3"					"build_tower_warrior_3"					// Ability 3
+		"Ability4"					"build_tower_warrior_4"					// Ability 4
+		"Ability5"					"build_tower_warrior_5"					// Ability 5
+		"Ability6"					"build_tower_warrior_6"				// Ability 6
+		"MovementCapabilities"		"DOTA_UNIT_CAP_MOVE_FLY"
+		"MovementSpeed"				"550"
+		"MovementTurnRate"			"1.0"
+		"VisionNighttimeRange"		"1800"									// Range of vision at night time.
+		"AttackCapabilities"		"DOTA_UNIT_CAP_NO_ATTACK"
+		"UnitLabel"					"builder"
+		"AttributePrimary"			"DOTA_ATTRIBUTE_STRENGTH"
+	}
+	"npc_dota_hero_doom_bringer"
+	{
+		"override_hero"				"npc_dota_hero_doom_bringer"			// Hero to override
+		"AbilityLayout"				"6"
+		"Ability1"					"build_tower_demon_1"					// Ability 1
+		"Ability2"					"build_tower_demon_2"					// Ability 2
+		"Ability3"					"build_tower_demon_3"					// Ability 3
+		"Ability4"					"build_tower_demon_4"					// Ability 4
+		"Ability5"					"build_tower_demon_5"					// Ability 5
+		"Ability6"					"build_tower_demon_6"				// Ability 6
+		"MovementCapabilities"		"DOTA_UNIT_CAP_MOVE_FLY"
+		"MovementSpeed"				"550"
+		"MovementTurnRate"			"1.0"
+		"VisionNighttimeRange"		"1800"									// Range of vision at night time.
+		"AttackCapabilities"		"DOTA_UNIT_CAP_NO_ATTACK"
+		"UnitLabel"					"builder"
+		"AttributePrimary"			"DOTA_ATTRIBUTE_STRENGTH"
+	}
+	
+	"npc_dota_hero_drow_ranger"
+	{
+		"override_hero"				"npc_dota_hero_drow_ranger"			// Hero to override
+		"AbilityLayout"				"6"
+		"Ability1"					"build_tower_ranger_1"					// Ability 1
+		"Ability2"					"build_tower_ranger_2"					// Ability 2
+		"Ability3"					"build_tower_ranger_3"					// Ability 3
+		"Ability4"					"build_tower_ranger_4"					// Ability 4
+		"Ability5"					"build_tower_ranger_5"					// Ability 5
+		"Ability6"					"build_tower_ranger_6"				// Ability 6
+		"MovementCapabilities"		"DOTA_UNIT_CAP_MOVE_FLY"
+		"MovementSpeed"				"550"
+		"MovementTurnRate"			"1.0"
+		"VisionNighttimeRange"		"1800"									// Range of vision at night time.
+		"AttackCapabilities"		"DOTA_UNIT_CAP_NO_ATTACK"
+		"UnitLabel"					"builder"
+		"AttributePrimary"			"DOTA_ATTRIBUTE_AGILITY"
+	}
+	
+	"npc_dota_hero_rubick"
+	{
+		"override_hero"				"npc_dota_hero_rubick"			// Hero to override
+		"AbilityLayout"				"6"
+		"Ability1"					"build_tower_random_1"					// Ability 1
+		"Ability2"					"build_tower_random_2"					// Ability 2
+		"Ability3"					"build_tower_random_3"					// Ability 3
+		"Ability4"					"build_tower_random_4"					// Ability 4
+		"Ability5"					"build_tower_random_5"					// Ability 5
+		"Ability6"					"build_tower_random_6"				// Ability 6
+		"MovementCapabilities"		"DOTA_UNIT_CAP_MOVE_FLY"
+		"MovementSpeed"				"550"
+		"MovementTurnRate"			"1.0"
+		"VisionNighttimeRange"		"1800"									// Range of vision at night time.
+//		"AttackCapabilities"		"DOTA_UNIT_CAP_NO_ATTACK"
+		"AttackDamageMin"			"1000"									// Damage range min.
+		"AttackDamageMax"			"1000"									// Damage range max.
+		"AttackRate"				"0.2"									// Speed of attack.
+		"UnitLabel"					"builder"
+		"AttributePrimary"			"DOTA_ATTRIBUTE_AGILITY"
+	}
+	"npc_dota_hero_lich"
+	{
+		"override_hero"				"npc_dota_hero_lich"			// Hero to override
+		"AbilityLayout"				"6"
+		"Ability1"					"build_tower_ice_1"					// Ability 1
+		"Ability2"					"build_tower_ice_2"					// Ability 2
+		"Ability3"					"build_tower_ice_3"					// Ability 3
+		"Ability4"					"build_tower_ice_4"					// Ability 4
+		"Ability5"					"build_tower_ice_5"					// Ability 5
+		"Ability6"					"build_tower_ice_6"				// Ability 6
+		"MovementCapabilities"		"DOTA_UNIT_CAP_MOVE_FLY"
+		"MovementSpeed"				"550"
+		"MovementTurnRate"			"1.0"
+		"VisionNighttimeRange"		"1800"									// Range of vision at night time.
+		"AttackCapabilities"		"DOTA_UNIT_CAP_NO_ATTACK"
+		"UnitLabel"					"builder"
+		"AttributePrimary"			"DOTA_ATTRIBUTE_INTELLECT"
+	}
+	
+	"npc_dota_hero_alchemist"
+	{
+		"override_hero"				"npc_dota_hero_alchemist"			// Hero to override
+		"AbilityLayout"				"6"
+		"Ability1"					"build_tower_gold_1"					// Ability 1
+		"Ability2"					"build_tower_gold_2"					// Ability 2
+		"Ability3"					"build_tower_gold_3"					// Ability 3
+		"Ability4"					"build_tower_gold_4"					// Ability 4
+		"Ability5"					"build_tower_gold_5"					// Ability 5
+		"Ability6"					"build_tower_gold_6"				// Ability 6
+		"MovementCapabilities"		"DOTA_UNIT_CAP_MOVE_FLY"
+		"MovementSpeed"				"550"
+		"MovementTurnRate"			"1.0"
+		"VisionNighttimeRange"		"1800"									// Range of vision at night time.
+		"AttackCapabilities"		"DOTA_UNIT_CAP_NO_ATTACK"
+		"UnitLabel"					"builder"
+		"AttributePrimary"			"DOTA_ATTRIBUTE_INTELLECT"
+	}
+	
+	
+	//=================================================================================================================
+	// HERO: Lina
+	//=================================================================================================================
+	
+	"npc_dota_hero_lina_maul"
+	{
+		"override_hero"				"npc_dota_hero_lina"			// Hero to override
+		"AbilityLayout"				"6"
+		"Ability1"					"build_flare_tower"				// Ability 1
+		"Ability2"					"build_flame_dancer"			// Ability 2
+		"Ability3"					"build_meteor_watcher"			// Ability 3
+		"Ability4"					"build_blast_furnace"			// Ability 4
+		"Ability5"					"build_incinerator"				// Ability 5
+		"Ability6"					"build_flame_staff"				// Ability 6
+		"MovementCapabilities"		"DOTA_UNIT_CAP_MOVE_FLY"
+		"MovementSpeed"				"522"
+		"MovementTurnRate"			"1.0"
+		"VisionNighttimeRange"		"1800"							// Range of vision at night time.
+		"AttackCapabilities"		"DOTA_UNIT_CAP_NO_ATTACK"
+		"UnitLabel"					"builder"
+	}
+
+	
+}
+

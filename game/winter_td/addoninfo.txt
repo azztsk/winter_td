@@ -1,0 +1,10 @@
+"AddonInfo" 
+{
+  "TeamCount" "9"
+  "maps"      "winter_td"
+  "IsPlayable"  "1"
+  "winter_td"
+  {
+          "MaxPlayers"                    "9"
+  }
+}

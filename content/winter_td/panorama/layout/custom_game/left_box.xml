@@ -1,0 +1,59 @@
+<root>
+	<styles>
+        <include src="file://panorama/styles/custom_game/left_box.css" />
+	</styles>
+
+	<scripts>
+        <include src="file://panorama/scripts/custom_game/left_box.js" />
+	</scripts>
+
+	<Panel class="Root">
+		<Panel class="Waves">
+			<Panel class="Lives">
+					<Panel class="LifeLeft">
+						<Label id="LifeText" text="Lives: "/>
+					</Panel>
+					<Panel class="LifeRight">
+						<Label id="LifeNumber" text=""/>
+					</Panel>
+			</Panel>
+
+			<Panel class="Timer">
+					<Panel class="TimerLeft">
+						<Label id="TimerText" text="Next wave will spawn in: "/>
+					</Panel>
+					<Panel class="TimerRight">
+						<Label id="TimerTime" text=""/>
+					</Panel>
+			</Panel>
+
+			<Panel class="CurrentTop">
+					<Panel class="CurrentTopLeft">
+						<Label id="CurrentWaveTop" text="Wave:"/>
+					</Panel>
+					<Panel class="CurrentTopRight">
+						<Label id="CurrentWaveNumber" text=""/>
+					</Panel>
+			</Panel>
+
+			<Panel class="CurrentBot">
+					<Panel class="CurrentBotLeft">
+						<Label id="CurrentWaveBot" text="Current Wave:"/>
+					</Panel>
+					<Panel class="CurrentBotRight">
+						<Label id="CurrentWaveText" text=""/>
+					</Panel>
+			</Panel>
+
+			<Panel class="Next">
+					<Panel class="NextLeft">
+						<Label id="NextWave" text="Next Wave:"/>
+					</Panel>
+					<Panel class="NextRight">
+						<Label id="NextWaveText" text=""/>
+					</Panel>
+
+			</Panel>
+		</Panel>
+	</Panel>
+</root>
